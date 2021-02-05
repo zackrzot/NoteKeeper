@@ -27,9 +27,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+
     private NoteRecyclerAdapter mNoteRecyclerAdapter;
-
-
     private AppBarConfiguration mAppBarConfiguration;
     private RecyclerView mRecyclerItems;
     private LinearLayoutManager mNotesLayoutManager;
